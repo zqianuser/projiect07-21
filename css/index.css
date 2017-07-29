@@ -11,7 +11,59 @@
 	width: 1200px;
 	margin: 0 auto;
 }
-/*.goods-container{
+.goods-container{
 	width: 1200px;
 	margin: 0 auto;
-}*/
+}
+.goods-container:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.goodsname{
+	font-size: 30px;
+	top: 250px;
+	left: 270px;
+	text-align: center;
+}
+.pic{
+	position: absolute;
+	top: 250px;
+	left: 20px;
+}
+.pri{
+	position: absolute;
+	font-size: 15px;
+	top: 300px;
+	color: red;
+	left: 270px;
+	
+}
+.pric{
+	position: absolute;
+	font-size: 20px;
+	top: 350px;
+	
+	left: 270px;
+	
+}
+
+.buy,.join{
+	width: 100px;
+	height: 30px;
+	border: 1px solid #000000;
+	background-color: red;
+	color: white;
+	text-align: center;
+	line-height: 30px;
+	position: absolute;
+	outline: none;
+}
+.buy{
+	top: 500px;
+	left:280px;
+}
+.join{
+	top: 500px;
+	left:400px;
+}

@@ -25,6 +25,7 @@ var $=jQuery.noConflict();
 //	new NavigaterItem().click(function(){
 //		调用
 //	)}
+
 	function Navigater(){
 		
 		
@@ -45,5 +46,9 @@ var $=jQuery.noConflict();
 		return this;  //之后可以使用链式函数去调用
 	};
 	
+	
+	
 	window.Navigater=Navigater;
 })();
+
+ 

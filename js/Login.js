@@ -69,6 +69,7 @@ var $=jQuery.noConflict();
         			//alert("login success");
         			//console.log(data);
         			if(data.code==0){   //登陆成功，输入框移除
+        				localStorage.setItem('token',data.data.token)
         				loginContainer.slideUp(500,function(){
         					loginContainer.remove();
         					
